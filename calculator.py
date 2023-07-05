@@ -13,6 +13,8 @@ def divide(x, y):
 
 
 def multiply(x, y):
+    if y == 0:
+        return "Invalid value for denominator, cant't divide by 0!"
     return x * y
 
 
